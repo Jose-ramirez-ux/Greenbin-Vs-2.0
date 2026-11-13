@@ -18,7 +18,7 @@ depositarlo, según el código de colores de la Resolución 2184 de 2019:
 
 ```
 Raspberry Pi 4 (raspberry/)                        Portátil (panel_web/)
-sensor HC-SR04 → cámara OV5647 → ResNet18 → 🔊     backend FastAPI + SQLite → panel Angular
+sensor HC-SR04 → cámara OV5647 → ResNet18 → Audio     backend FastAPI + SQLite → panel Angular
                          └── envía solo el resultado (sin imágenes) ──┘
 ```
 
