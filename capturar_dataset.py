@@ -15,7 +15,7 @@ import time
 # ── Configuración ────────────────────────────────────────────────────────────
 CLASES = ["organico", "aprovechable", "no_aprovechable"]
 BASE   = "dataset"
-N      = 200      # máximo de imágenes por clase
+N      = 2000      # máximo de imágenes por clase
 SIZE   = 224      # tamaño al que se guarda cada imagen (px)
 FRAC   = 0.6      # fracción del frame que se recorta al centro
 # ─────────────────────────────────────────────────────────────────────────────

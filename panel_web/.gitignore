@@ -1,0 +1,16 @@
+# Angular
+node_modules/
+dist/
+.angular/
+*.js.map
+
+# Backend
+backend/.venv/
+backend/__pycache__/
+backend/*.db
+backend/*.db-journal
+
+# Secretos y sistema
+.env
+.DS_Store
+Thumbs.db

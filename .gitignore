@@ -1,0 +1,26 @@
+# Entornos y cachés de Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Angular (panel_web)
+node_modules/
+dist/
+.angular/
+
+# Datos que NO se suben: fotos con rostros (RNF-05, Ley 1581) y registros de pruebas
+raspberry/dataset_v1/*/
+dataset_v1/
+*.zip
+registros/
+*.db
+*.db-journal
+
+# Claves y configuración local
+panel.env
+.env
+
+# Sistema
+Thumbs.db
+.DS_Store

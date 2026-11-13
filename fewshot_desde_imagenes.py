@@ -26,13 +26,13 @@ SUAVIZADO = 5         # frames para suavizar predicción
 
 # Imágenes de referencia por clase (puedes agregar más rutas por lista)
 EJEMPLOS = {
-    "organico":        ["ejemplos/organico_tomate.jpg"],
-    "aprovechable":    ["ejemplos/aprovechable_botella.jpg"],
-    "no_aprovechable": ["ejemplos/no_aprovechable_papel.jpg"],
+    "organico":        [r"C:\Users\USUARIO\Documentos\GreenBin_mejorado\dataset\organico\1779470871.jpg"],
+    "aprovechable":    [r"C:\Users\USUARIO\Documentos\GreenBin_mejorado\dataset\aprovechable\1779473546.jpg"],
+    "no_aprovechable": [r"C:\Users\USUARIO\Documentos\GreenBin_mejorado\dataset\no_aprovechable\20.jpeg"]
 }
 
 CANECA = {
-    "organico":        ("VERDE (Orgánico)",               (0, 180, 0)),
+    "organico":        ("VERDE (Organico)",               (0, 180, 0)),
     "aprovechable":    ("BLANCA (Aprovechable/Reciclable)", (220, 220, 220)),
     "no_aprovechable": ("NEGRA (No aprovechable)",         (60, 60, 60)),
 }
